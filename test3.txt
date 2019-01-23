@@ -1,0 +1,42 @@
+Name:
+thisisthename
+
+forced partial assignment:
+(1,C)
+(2,E)
+(7,B)
+(8,F)
+
+forbidden machine:
+(1,H)
+(2,A)
+(3,G)
+(4,B)
+(5,F)
+(6,C)
+(7,E)
+(8,D)
+
+too-near tasks:
+(A,B)
+(C,D)
+(E,F)
+(G,H)
+(H,A)
+
+machine penalties:
+2 3 1 0 9 0 3 5
+1 4 0 0 2 4 1 1
+0 2 1 0 1 2 2 1
+9 5 3 9 1 3 9 4
+1 1 1 1 1 1 1 1
+0 0 0 0 0 0 0 0
+3 5 2 1 5 3 2 1
+2 9 0 1 2 3 9 4
+
+too-near penalties:
+(C,B,1)
+(G,A,9)
+(A,H,0)
+(F,C,3)
+(B,A,4)
