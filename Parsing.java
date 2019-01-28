@@ -5,6 +5,7 @@
  *
  * @author Team Kwerty
  * @version Completely parses the file with error checking putting the required values in different structures
+ * !! STILL HAVE TO PUT OUTPUT INTO A FILE AND PROPER ERROR MESSAGES ACC. TO THE ASSIGNMENT !!
  */
 
 import java.io.*;
@@ -308,6 +309,7 @@ public class Parsing
                     System.out.println('\n');
                     break;
                 case "too-near penalties":
+                case "too-near penalities":
                     tnp = false;
                     counter = 0;
                     while ((inputTNP = br.readLine()) != null) {
